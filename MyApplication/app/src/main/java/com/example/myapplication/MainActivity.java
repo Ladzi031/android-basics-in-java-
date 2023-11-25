@@ -10,7 +10,7 @@ import android.util.Log;
 
 /*
 Log.i(TAG,sMessage)...
-Tag is can be used to identify a specific log under logCat section,
+TAG can be used to identify a specific log under the logCat section,
 which helps debugging...
 */
 
