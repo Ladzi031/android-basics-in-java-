@@ -1,4 +1,4 @@
-# learning the android-basics-in-java-
+# learning android-basics-in-java
 
 i'm using one of TheNewBoston (btw, super cool YouTuber!) older tutorials to learn: 
 # The fundamentals of android development in Java.
