@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view_container"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            app:cardCornerRadius="70dp">
+            <!--image src added here is for design purposes only...-->
+            <ImageView
+                android:id="@+id/my_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/my_pic" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/time_textview"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="66dp"
+            android:fontFamily="monospace"
+            android:text="10:10 am"
+            android:textAlignment="center"
+            android:textSize="13sp"
+            >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/message_textview"
+            android:layout_width="319dp"
+            android:layout_height="37dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="13dp"
+            android:layout_toRightOf="@+id/card_view_container"
+            android:fontFamily="monospace"
+            android:text="How are you???"
+            android:textAlignment="center"
+            android:textSize="16sp"></TextView>
+
+        <TextView
+            android:id="@+id/divider_line_textview"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@+id/message_textview"
+            android:layout_marginTop="-5dp"
+            android:layout_marginBottom="1dp"
+            android:layout_toRightOf="@id/card_view_container"
+            android:text="------------------------"
+            android:textColor="#CDC7C7">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/name_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="4dp"
+            android:layout_toRightOf="@id/card_view_container"
+            android:fontFamily="casual"
+            android:text="Ladzani"
+            android:textAlignment="center"
+            android:textSize="20sp">
+
+        </TextView>
+    </RelativeLayout>
+
+</RelativeLayout>
