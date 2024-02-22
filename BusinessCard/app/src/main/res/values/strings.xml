@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Business Card</string>
+    <string name="profile_photo_description">A profile photo of me.</string>
+    <string name="full_name">Ladzani Fabian</string>
+    <string name="surname">Bengane</string>
+    <string name="job_title">Android Software Developer</string>
+    <string name="phone_desction">user contact numbers</string>
+    <string name="phone_number">083 5655 565</string>
+    <string name="email_description">user contact numbers</string>
+    <string name="email">ladzi@gmail.com</string>
+    <string name="home_description">user contact numbers</string>
+    <string name="website_info">www.ladzanibengani.co.za</string>
+</resources>
