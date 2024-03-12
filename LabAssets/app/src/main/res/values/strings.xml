@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab Assets</string>
+    <string name="lab_name">10-140</string>
+    <string name="number_of_computers">Number of Computers</string>
+    <string name="number_of_screens">Number of Screens</string>
+    <string name="number_of_keyboards">Number of Keyboards</string>
+    <string name="calculate_total_value">Calculate Total Value</string>
+</resources>
